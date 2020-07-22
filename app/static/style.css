@@ -1,25 +1,25 @@
-@import url('https://fonts.googleapis.com/css?family=Boogaloo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
 .container-fluid{
   background-color:black;
-  font-family: 'Boogaloo', cursive;
+  font-family: '', serif;
   overflow-x: hidden;
 }
 .login{
-  font-family: 'Boogaloo', cursive;
+  font-family: 'Tangerine', serif;
 }
 
 .signup{
-  font-family: 'Boogaloo', cursive;
+  font-family: 'Tangerine', serif;
 
 }
 .blog{
-  font-family: 'Boogaloo', cursive;
+  font-family: 'Tangerine', serif;
 
 }
 .home{
-  font-family: 'Boogaloo', cursive;
+  font-family: 'Tangerine', serif;
 
 }
 .profile{
-  font-family: 'Boogaloo', cursive;
+  font-family: 'Tangerine', serif;
 }
