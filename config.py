@@ -9,8 +9,8 @@ class Config:
     MAIL_PORT = 465
     MAIL_USE_TLS = False
     MAIL_USE_SSL = True
-    MAIL_USERNAME='ijanemercy@gmail.com'
-    MAIL_PASSWORD ='@janeMercy700'
+    MAIL_USERNAME='kevinkosk23@gmail.com'
+    MAIL_PASSWORD ='kipronokelvin'
 
 
 class DevConfig(Config):
@@ -19,5 +19,6 @@ class DevConfig(Config):
 
 class ProdConfig(Config):
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://postgres:12345@localhost/postgres'
+    pass
     DEBUG = True
 configurations = {"development":DevConfig, "production":ProdConfig}
