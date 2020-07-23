@@ -47,7 +47,7 @@ Currently the application has no known bugs.
 
 | Input        | Output           | Behavior  |
 | ------------- |:-------------:| -----:|
-| Visit Bloggy site| Various blogs are displayed  | User can only see other people's pitches |
+| Visit K-Blog site| Various blogs are displayed  | User can only see other people's pitches |
 | Sign in    | Application sends a welcoming message | User has an account |
 | Click on new blog| Application displays a form for you to post a blog  | Submit to save blog is saved |
 | Subscribe... | Each time there's a new blog user recieves email | app send email |
