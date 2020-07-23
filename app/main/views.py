@@ -18,7 +18,7 @@ quoty = Quotes(author,quote,permalink)
 
 @main.route('/')
 def home():
-    title = "YUBlog"
+    title = "K-Blog"
     blogs = Blog.query.all()
     comment = Comments.query.all()
     quote = quoty
