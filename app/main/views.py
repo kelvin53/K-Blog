@@ -6,8 +6,7 @@ import requests
 from .. import mail, db,photos
 from ..email import mail_message
 from flask_mail import Message
-from flask import send_from_directory  
-import os    
+ 
 
 response = requests.get('http://quotes.stormconsultancy.co.uk/random.json')
 quotes = response.json()
@@ -122,6 +121,3 @@ def update_pic(uname):
         db.session.commit()
     return redirect(url_for('main.profile',uname=uname))
 
-@app.route('/favicon.ico') 
-def favicon(): 
-    return send_from_directory(os.path.join(app.root_path, 'static'), 'favicon.ico', mimetype='image/vnd.microsoft.icon'
